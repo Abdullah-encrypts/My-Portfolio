@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently diving into the world of AI",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,8 +73,8 @@ export const navItems = [
     {
       id: 1,
       title: "Blog Site",
-      des: "An EASY-TO-USE BLOG SITE Built in Next.js.",
-      img: "/p1.1.png",
+      des: "An intuitive personal Blog Site. Where the words are brought to life.",
+      img: "/nextblog.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/fm.svg"],
       link: "https://nextjs-blog-abdullah-encrypts.vercel.app",
     },
