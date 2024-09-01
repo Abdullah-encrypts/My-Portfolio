@@ -3,10 +3,11 @@ import React from "react";
 import { div } from "three/webgpu";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -20,9 +21,9 @@ const RecentProjects = () => {
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d] ">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image src="/bg.png" alt="bg-img" />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                <Image src={img} alt={title} className="z-10 absolute bottom-0" />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mt-1">
                 {title}
@@ -42,7 +43,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index * 2} px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image src={icon} alt={icon} className="p-2" />
                     </div>
                   ))}
                 </div>
