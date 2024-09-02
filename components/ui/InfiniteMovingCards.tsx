@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -9,6 +10,7 @@ export const InfiniteMovingCards = ({
   speed = "fast",
   pauseOnHover = true,
   className,
+  imgs,
 }: {
   items: {
     quote: string;
@@ -19,6 +21,9 @@ export const InfiniteMovingCards = ({
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
+  imgs: {
+    img: string;
+  }[];
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
@@ -106,7 +111,11 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
+                    {/* {imgs.map((img, idx) => ( 
+                      <img key={idx} src={img} alt="profile" />
+                    ))
+                    } */}
+                    <Image src="/stream.svg" alt="profile" width={40} height={40} />
                   </div>
 
                   <div className="flex flex-col gap-1">

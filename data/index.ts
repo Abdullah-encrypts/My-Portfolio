@@ -80,19 +80,19 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Recipe - Your Cooking buddy",
+      des: "A Recipe App that helps you find the perfect recipe for your meal.",
+      img: "/recipe.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://recipe-iota-amber.vercel.app",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      title: "Socially- A Social Media App",
+      des: "A modern and simple UI of Social Media App that connects you with the world.",
+      img: "/social-media.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://social-media-xi-six.vercel.app",
     },
     {
       id: 4,
@@ -107,35 +107,53 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Abdullah was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abdullah's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I am here to motivate myself, being a fresh graduate and a self-taught developer, I wanted to be a testimonial of myself.",
+      name: "Muhammad Abdullah",
+      title: "Director of DravenVerse Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "A testimonial dedicated to Mr. Abdullah, who is a pleasure to be a friend of. He is a great computer engineer and software developer. I would recommnet to anyone looking for an honest work!",
+      name: "Mubashir ur Rehamn",
+      title: "CEO of Style Sage",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Abdullah as my FYP partner was a please to work with, he always prefered smart work over hard work. He is a great developer and a great friend.",
+      name: "Muhammad Maaz Khalid",
+      title: "Vice president of Softdesk",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Looking for a friendly and professional web developer who can provide you great performance in this AI era? Abdullah is a person who has proved his self in the domain using AI as a buddy, instead of a competitor.",
+      name: "Syed Muhammad Mehdi Jaffri",
+      title: "Associate Software Engineer at JinTech Pvt. Ltd.",
     },
   ];
+
+  export const imgs = [
+    {
+      img: "/profile.svg",
+    },
+    {
+      img: "/tail.svg",
+    },
+    {
+      img: "/ts.svg",
+    },
+    {
+      img: "/three.svg",
+    },
+    {
+      img: "/fm.svg",
+    },
+  ]
   
   export const companies = [
     {
@@ -173,29 +191,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Devloper - Style Sage",
+      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity at Style Sage.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Mobile App Dev - Final Year Project",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Freelance Projects",
+      desc: "Led the projects of multiple domains, inlcuding web services, and AI automation tasks.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Full Stack Developer",
+      desc: "Developed and maintained personal projects to practice and improve my skills.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +223,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Abdullah-encrypts"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://www.google.com"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/muhammadabdullahawan/"
     },
   ];
